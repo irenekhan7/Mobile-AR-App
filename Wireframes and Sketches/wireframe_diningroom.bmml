@@ -1,0 +1,76 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="835" measuredH="819" mockupW="415" mockupH="655">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="420" y="164" w="-1" h="-1" measuredW="415" measuredH="655" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>%24ACCOUNT/assets/android_vertical.png</src>
+        <text>Wireframe%20Hallway</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="486" y="253" w="283" h="477" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="576" y="253" w="-1" h="-1" measuredW="77" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>Dining%20Room</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="534" y="280" w="220" h="-1" measuredW="158" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Guests%20walk%20down%20hallway%2C%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="534" y="316" w="-1" h="-1" measuredW="220" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Hallway%20maid%20accompanies%20the%20guest</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="524" y="661" w="-1" h="-1" measuredW="221" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Table%20is%20set%20with%20expensive%20food%2C%20and%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Image" x="524" y="348" w="195" h="274" measuredW="77" measuredH="79" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::CallOut" x="486" y="271" w="39" h="39" measuredW="39" measuredH="39" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>2848996</color>
+        <text>1</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::CallOut" x="486" y="310" w="39" h="39" measuredW="39" measuredH="39" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>2848996</color>
+        <text>2</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::CallOut" x="486" y="652" w="39" h="39" measuredW="39" measuredH="39" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>2848996</color>
+        <text>3</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::CallOut" x="486" y="692" w="39" h="39" measuredW="39" measuredH="39" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>2848996</color>
+        <text>4</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Label" x="525" y="701" w="-1" h="-1" measuredW="240" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Footman%20is%20present%20to%20seat%20them%20at%20table</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Label" x="534" y="294" w="-1" h="-1" measuredW="159" measuredH="21" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>turn%20right%20into%20Dining%20Room</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="524" y="677" w="-1" h="-1" measuredW="149" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>other%20guests%20are%20present</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

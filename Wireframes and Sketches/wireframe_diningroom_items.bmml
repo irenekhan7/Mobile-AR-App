@@ -1,0 +1,71 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="835" measuredH="819" mockupW="415" mockupH="655">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="420" y="164" w="-1" h="-1" measuredW="415" measuredH="655" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>%24ACCOUNT/assets/android_vertical.png</src>
+        <text>Wireframe%20Hallway</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="486" y="253" w="283" h="494" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="576" y="253" w="-1" h="-1" measuredW="117" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>Dining%20Room%20Items</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="534" y="280" w="220" h="-1" measuredW="189" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Guests%20can%20click%20on%20food%2C%20drinks</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="534" y="316" w="-1" h="-1" measuredW="216" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>AR%20app%20displays%20info%20about%20the%20items</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Image" x="534" y="363" w="195" h="274" measuredW="77" measuredH="79" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::CallOut" x="486" y="271" w="39" h="39" measuredW="39" measuredH="39" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <text>1</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::CallOut" x="486" y="310" w="39" h="39" measuredW="39" measuredH="39" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <text>2</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::CallOut" x="486" y="652" w="39" h="39" measuredW="39" measuredH="39" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <text>3</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Label" x="534" y="295" w="220" h="-1" measuredW="194" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>other%20room%20objects%20to%20learn%20more</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Label" x="524" y="661" w="240" h="-1" measuredW="232" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>QR%20codes%20are%20in%20the%20actual%20dining%20room</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Label" x="524" y="676" w="240" h="-1" measuredW="203" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>for%20guests%20to%20scan%20and%20learn%20more</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Image" x="534" y="697" w="44" h="44" measuredW="200" measuredH="201" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/qrcode.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
