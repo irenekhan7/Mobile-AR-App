@@ -1,3 +1,4 @@
+//multiple targets
 var World = {
 	loaded: false,
 
@@ -11,43 +12,63 @@ var World = {
 		// Initialize Tracker
 		// Important: If you replace the tracker file with your own, make sure to change the target name accordingly.
 		// e.g. replace "pageOne" used for creating the AR.Trackeable2DOBject below, with the name of one of your new target images.
-		this.tracker = new AR.Tracker("assets/magazine.wtc", {
+		this.tracker = new AR.Tracker("assets/four_rooms.wtc", {
 			onLoaded: this.worldLoaded
 		});
 
-		// Create overlay for page one
-		var imgOne = new AR.ImageResource("assets/imageOne.png");
-		var overlayOne = new AR.ImageDrawable(imgOne, 1, {
+		// Create overlay butler for hallway
+		var imgHallwayButler = new AR.ImageResource("assets/butler.png");
+		var overlayHallwayButler = new AR.ImageDrawable(imgHallwayButler, 1, {
 			offsetX: -0.15,
 			offsetY: 0
 		});
-		var pageOne = new AR.Trackable2DObject(this.tracker, "pageOne", {
+		// Create a second overlay maid for hallway
+		var imgHallwayMaid = new AR.ImageResource("assets/maid_hallway.png");
+		var overlayHallwayMaid = new AR.ImageDrawable(imgHallwayMaid, 1, {
+			offsetX: 0.25,
+			offsetY: 0
+		});
+		//render the hallway with the butler and maid as an array
+		var pageHallway = new AR.Trackable2DObject(this.tracker, "1_hallway", {
 			drawables: {
-				cam: overlayOne
+				cam: [overlayHallwayButler, overlayHallwayMaid]
 			}
 		});
 
-		// Create overlay for page two
-		var imgTwo = new AR.ImageResource("assets/imageTwo.png");
-		var overlayTwo = new AR.ImageDrawable(imgTwo, 0.5, {
+		// Drawing room - dessert items
+		var imgDrawingDessert = new AR.ImageResource("assets/veggies.png");
+		var overlayDrawingDessert = new AR.ImageDrawable(imgDrawingDessert, 0.5, {
 			offsetX: 0.12,
 			offsetY: -0.01
 		});
-		var pageTwo = new AR.Trackable2DObject(this.tracker, "pageTwo", {
+		//render the drawing with overlays
+		var pageDrawingRoom = new AR.Trackable2DObject(this.tracker, "2_drawingroom", {
 			drawables: {
-				cam: overlayTwo
+				cam: overlayDrawingDessert
+			}
+		});
+
+		// Front parlor - Create overlay maid
+		var imgParlorMaid = new AR.ImageResource("assets/maid_parlor.png");
+		var overlayParlorMaid = new AR.ImageDrawable(imgParlorMaid, 0.5, {
+			offsetX: 0.12,
+			offsetY: -0.01
+		});
+		//render the front parlor with overlays
+		var pageParlorMaid = new AR.Trackable2DObject(this.tracker, "2_parlor_front", {
+			drawables: {
+				cam: overlayParlorMaid
 			}
 		});
 	},
-
+	//thumbnail of the target image
 	worldLoaded: function worldLoadedFn() {
 		var cssDivLeft = " style='display: table-cell;vertical-align: middle; text-align: right; width: 50%; padding-right: 15px;'";
 		var cssDivRight1 = " style='display: table-cell;vertical-align: middle; text-align: left; padding-right: 15px; width: 38px'";
 		var cssDivRight2 = " style='display: table-cell;vertical-align: middle; text-align: left; padding-right: 15px;'";
 		document.getElementById('loadingMessage').innerHTML =
-		"<div" + cssDivLeft + ">Scan Target &#35;1 (surfer) or &#35;2 (biker):</div>" +
-			"<div" + cssDivRight1 + "><img src='assets/surfer.png'></img></div>" +
-			"<div" + cssDivRight2 + "><img src='assets/bike.png'></img></div>";
+		"<div" + cssDivLeft + ">Scan a room</div>" +
+			"<div" + cssDivRight1 + ">(view images)</div>";
 	}
 };
 

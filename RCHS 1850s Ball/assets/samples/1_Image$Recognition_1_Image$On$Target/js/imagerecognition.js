@@ -16,7 +16,7 @@ var World = {
 			onLoaded: this.worldLoaded
 		});
 
-		// Create overlay for page one
+		// Create overlay for page one - hallway
 		var imgOne = new AR.ImageResource("assets/butler.png");
 		var overlayOne = new AR.ImageDrawable(imgOne, 1, {
 			offsetX: -0.15,
